@@ -20,11 +20,24 @@ section#aside {
     color: white;
     /* debug */
 }
+/* da mettere nelle general rulez RICORDATELO */
+.my_color_grey{
+    color: rgba(167, 163, 163, 0.678);
+}
+.my_width_35px{
+    width: 35px;
+}
+
+
 nav{
     height: calc(100% - 100px);
     justify-content: space-between;
 }
 
+/* nav header */
+.menu-nav-header img{
+    vertical-align: middle;
+}
 .nav-main{
     flex-grow: 2;
     min-height: 250px;
@@ -55,8 +68,9 @@ nav{
     position: fixed;
     top: 0;
     right: 0;
+    z-index: 1;
     line-height: 100px;
-    background-color: rgba(0, 128, 0, 0.171);
+    background-color: rgba(40, 47, 61, 0.144);
 }
 
 .call-to-action button.btn{

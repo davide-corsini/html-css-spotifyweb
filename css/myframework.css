@@ -37,6 +37,20 @@
 .txt_l{
     text-align: left;
 }
+
+.txt_cap{
+    text-transform: capitalize;
+}
+
+.txt_up{
+    text-transform: uppercase;
+}
+.txt_dec_none{
+    text-decoration: none;
+}
+.list_none{
+    list-style: none;
+}
 .d_flex_r{
     display: flex;
     flex-direction: row;    
