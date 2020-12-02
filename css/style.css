@@ -1,11 +1,11 @@
 .container{
-    width: 100%;
+    max-width: 100%;
     height: 100vh;
     overflow: hidden;
 }
 
 main{
-    width: 100%;
+    max-width: 100%;
     height: calc(100% - 100px);
 }
 /* [LAYOUT ASIDE], [nav] > NAV-HEADER, NAV-MAIN, NAV-FOOTER*/
@@ -15,17 +15,24 @@ section#aside {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: orange;
+    /* debug */
+    background-color: black;
+    color: white;
+    /* debug */
 }
 nav{
-    height: calc(100% - 90px);
+    height: calc(100% - 100px);
     justify-content: space-between;
 }
 
 .nav-main{
     flex-grow: 2;
+    min-height: 300px;
 }
-
+ul.menu-nav-main{
+    width: 100%;
+    overflow-y: scroll;
+}
 
 
 
