@@ -1,0 +1,922 @@
+/* DEBUG COLORS */
+.debug .blue{
+    background-color: blue;
+}
+
+.debug .pink{
+    background-color: pink;
+}
+
+.debug .orange{
+    background-color: orange;
+}
+
+.debug .grey{
+    background-color: grey;
+}
+
+
+/* GENERAL RULES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.d_flex_r{
+    display: flex;
+    flex-direction: row;    
+}
+
+.d_flex_c{
+    display: flex;
+    flex-direction: column;
+}
+
+.float_left{
+    float: left;
+}
+
+.float_right{
+    float: right;
+}
+
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+.my_width100{
+width: 100%;
+}
+
+.my_height100{
+height: 100%;
+}
+
+/* -------------------- */
+/* padding tot % */
+/* -------------------- */
+.my_pdx1{
+padding: 1%;
+}
+
+.my_pdx2{
+padding: 2%;
+}
+
+.my_pdx3{
+padding: 3%;
+}
+
+.my_pdx4{
+padding: 4%;
+}
+
+.my_pdx5{
+padding: 5%;
+}
+
+.my_pdx6{
+padding: 6%;
+}
+
+.my_pdx7{
+padding: 7%;
+}
+
+.my_pdx8{
+padding: 8%;
+}
+
+.my_pdx9{
+padding: 9%;
+}
+
+.my_pdx10{
+padding: 10%;
+}
+
+.my_pdx11{
+padding: 11%;
+}
+
+.my_pdx12{
+padding: 12%;
+}
+
+.my_pdx13{
+padding: 13%;
+}
+
+.my_pdx14{
+padding: 14%;
+}
+
+.my_pdx15{
+padding: 15%;
+}
+
+.my_pdx16{
+padding: 16%;
+}
+
+.my_pdx17{
+padding: 17%;
+}
+
+.my_pdx18{
+padding: 18%;
+}
+
+.my_pdx19{
+padding: 19%;
+}
+
+.my_pdx20{
+padding: 20%;
+}
+/* ---------------------
+/END PADDING TOT%
+--------------------- */
+
+/* ---------------------
+PADDING TOP IN %
+--------------------- */
+.my_pd_topx1{
+padding: 1%;
+}
+
+.my_pd_topx2{
+padding: 2%;
+}
+
+.my_pd_topx3{
+padding: 3%;
+}
+
+.my_pd_topx4{
+padding: 4%;
+}
+
+.my_pd_topx5{
+padding: 5%;
+}
+
+.my_pd_topx6{
+padding: 6%;
+}
+
+.my_pd_topx7{
+padding: 7%;
+}
+
+.my_pd_topx8{
+padding: 8%;
+}
+
+.my_pd_topx9{
+padding: 9%;
+}
+
+.my_pd_topx10{
+padding: 10%;
+}
+
+.my_pd_topx11{
+padding: 11%;
+}
+
+.my_pd_topx12{
+padding: 12%;
+}
+
+.my_pd_topx13{
+padding: 13%;
+}
+
+.my_pd_topx14{
+padding: 14%;
+}
+
+.my_pd_topx15{
+padding: 15%;
+}
+
+.my_pd_topx16{
+padding: 16%;
+}
+
+.my_pd_topx17{
+padding: 17%;
+}
+
+.my_pd_topx18{
+padding: 18%;
+}
+
+.my_pd_topx19{
+padding: 19%;
+}
+
+.my_pd_topx20{
+padding: 20%;
+}
+/* ------------------------
+/END PADDING TOP IN%
+------------------------ */ */
+
+/* ---------------------
+MY PADDING BOTTOM IN %
+--------------------- */
+.my_pd_bottomx1{
+padding: 1%;
+}
+
+.my_pd_bottomx2{
+padding: 2%;
+}
+
+.my_pd_bottomx3{
+padding: 3%;
+}
+
+.my_pd_bottomx4{
+padding: 4%;
+}
+
+.my_pd_bottomx5{
+padding: 5%;
+}
+
+.my_pd_bottomx6{
+padding: 6%;
+}
+
+.my_pd_bottomx7{
+padding: 7%;
+}
+
+.my_pd_bottomx8{
+padding: 8%;
+}
+
+.my_pd_bottomx9{
+padding: 9%;
+}
+
+.my_pd_bottomx10{
+padding: 10%;
+}
+
+.my_pd_bottomx11{
+padding: 11%;
+}
+
+.my_pd_bottomx12{
+padding: 12%;
+}
+
+.my_pd_bottomx13{
+padding: 13%;
+}
+
+.my_pd_bottomx14{
+padding: 14%;
+}
+
+.my_pd_bottomx15{
+padding: 15%;
+}
+
+.my_pd_bottomx16{
+padding: 16%;
+}
+
+.my_pd_bottomx17{
+padding: 17%;
+}
+
+.my_pd_bottomx18{
+padding: 18%;
+}
+
+.my_pd_bottomx19{
+padding: 19%;
+}
+
+.my_pd_bottomx20{
+padding: 20%;
+}
+/* --------------------
+/END PADDING BOTTOM
+------------------- */
+
+/* ---------------------
+MY PADDING RIGHT IN %
+--------------------- */
+.my_pd_rightx1{
+padding: 1%;
+}
+
+.my_pd_rightx2{
+padding: 2%;
+}
+
+.my_pd_rightx3{
+padding: 3%;
+}
+
+.my_pd_rightx4{
+padding: 4%;
+}
+
+.my_pd_rightx5{
+padding: 5%;
+}
+
+.my_pd_rightx6{
+padding: 6%;
+}
+
+.my_pd_rightx7{
+padding: 7%;
+}
+
+.my_pd_rightx8{
+padding: 8%;
+}
+
+.my_pd_rightx9{
+padding: 9%;
+}
+
+.my_pd_rightx10{
+padding: 10%;
+}
+
+.my_pd_rightx11{
+padding: 11%;
+}
+
+.my_pd_rightx12{
+padding: 12%;
+}
+
+.my_pd_rightx13{
+padding: 13%;
+}
+
+.my_pd_rightx14{
+padding: 14%;
+}
+
+.my_pd_rightx15{
+padding: 15%;
+}
+
+.my_pd_rightx16{
+padding: 16%;
+}
+
+.my_pd_rightx17{
+padding: 17%;
+}
+
+.my_pd_rightx18{
+padding: 18%;
+}
+
+.my_pd_rightx19{
+padding: 19%;
+}
+
+.my_pd_rightx20{
+padding: 20%;
+}
+/* --------------------
+/END PADDING RIGHT
+------------------- */
+
+/* ---------------------
+MY PADDING LEFT IN %
+--------------------- */
+.my_pd_leftx1{
+padding: 1%;
+}
+
+.my_pd_leftx2{
+padding: 2%;
+}
+
+.my_pd_leftx3{
+padding: 3%;
+}
+
+.my_pd_leftx4{
+padding: 4%;
+}
+
+.my_pd_leftx5{
+padding: 5%;
+}
+
+.my_pd_leftx6{
+padding: 6%;
+}
+
+.my_pd_leftx7{
+padding: 7%;
+}
+
+.my_pd_leftx8{
+padding: 8%;
+}
+
+.my_pd_leftx9{
+padding: 9%;
+}
+
+.my_pd_leftx10{
+padding: 10%;
+}
+
+.my_pd_leftx11{
+padding: 11%;
+}
+
+.my_pd_leftx12{
+padding: 12%;
+}
+
+.my_pd_leftx13{
+padding: 13%;
+}
+
+.my_pd_leftx14{
+padding: 14%;
+}
+
+.my_pd_leftx15{
+padding: 15%;
+}
+
+.my_pd_leftx16{
+padding: 16%;
+}
+
+.my_pd_leftx17{
+padding: 17%;
+}
+
+.my_pd_leftx18{
+padding: 18%;
+}
+
+.my_pd_leftx19{
+padding: 19%;
+}
+
+.my_pd_leftx20{
+padding: 20%;
+}
+/* --------------------
+/END PADDING LEFT
+------------------- */
+
+/* -------------------
+MARGIN TOT IN %
+------------------- */
+.my_mx1{
+padding: 1%;
+}
+
+.my_mx2{
+padding: 2%;
+}
+
+.my_mx3{
+padding: 3%;
+}
+
+.my_mx4{
+padding: 4%;
+}
+
+.my_mx5{
+padding: 5%;
+}
+
+.my_mx6{
+padding: 6%;
+}
+
+.my_mx7{
+padding: 7%;
+}
+
+.my_mx8{
+padding: 8%;
+}
+
+.my_mx9{
+padding: 9%;
+}
+
+.my_mx10{
+padding: 10%;
+}
+
+.my_mx11{
+padding: 11%;
+}
+
+.my_mx12{
+padding: 12%;
+}
+
+.my_mx13{
+padding: 13%;
+}
+
+.my_mx14{
+padding: 14%;
+}
+
+.my_mx15{
+padding: 15%;
+}
+
+.my_mx16{
+padding: 16%;
+}
+
+.my_mx17{
+padding: 17%;
+}
+
+.my_mx18{
+padding: 18%;
+}
+
+.my_mx19{
+padding: 19%;
+}
+
+.my_mx20{
+padding: 20%;
+}
+/* -------------------
+/END MARGIN IN %
+-------------------- */
+
+/* -------------------
+MARGIN TOP IN %
+------------------- */
+.my_m_topx1{
+padding: 1%;
+}
+
+.my_m_topx2{
+padding: 2%;
+}
+
+.my_m_topx3{
+padding: 3%;
+}
+
+.my_m_topx4{
+padding: 4%;
+}
+
+.my_m_topx5{
+padding: 5%;
+}
+
+.my_m_topx6{
+padding: 6%;
+}
+
+.my_m_topx7{
+padding: 7%;
+}
+
+.my_m_topx8{
+padding: 8%;
+}
+
+.my_m_topx9{
+padding: 9%;
+}
+
+.my_m_topx10{
+padding: 10%;
+}
+
+.my_m_topx11{
+padding: 11%;
+}
+
+.my_m_topx12{
+padding: 12%;
+}
+
+.my_m_topx13{
+padding: 13%;
+}
+
+.my_m_topx14{
+padding: 14%;
+}
+
+.my_m_topx15{
+padding: 15%;
+}
+
+.my_m_topx16{
+padding: 16%;
+}
+
+.my_m_topx17{
+padding: 17%;
+}
+
+.my_m_topx18{
+padding: 18%;
+}
+
+.my_m_topx19{
+padding: 19%;
+}
+
+.my_m_topx20{
+padding: 20%;
+}
+
+/* --------------------
+/END MARGIN TOP IN %
+------------------- */
+
+
+.my_m_bottomx1{
+padding: 1%;
+}
+
+.my_m_bottomx2{
+padding: 2%;
+}
+
+.my_m_bottomx3{
+padding: 3%;
+}
+
+.my_m_bottomx4{
+padding: 4%;
+}
+
+.my_m_bottomx5{
+padding: 5%;
+}
+
+.my_m_bottomx6{
+padding: 6%;
+}
+
+.my_m_bottomx7{
+padding: 7%;
+}
+
+.my_m_bottomx8{
+padding: 8%;
+}
+
+.my_m_bottomx9{
+padding: 9%;
+}
+
+.my_m_bottomx10{
+padding: 10%;
+}
+
+.my_m_bottomx11{
+padding: 11%;
+}
+
+.my_m_bottomx12{
+padding: 12%;
+}
+
+.my_m_bottomx13{
+padding: 13%;
+}
+
+.my_m_bottomx14{
+padding: 14%;
+}
+
+.my_m_bottomx15{
+padding: 15%;
+}
+
+.my_m_bottomx16{
+padding: 16%;
+}
+
+.my_m_bottomx17{
+padding: 17%;
+}
+
+.my_m_bottomx18{
+padding: 18%;
+}
+
+.my_m_bottomx19{
+padding: 19%;
+}
+
+.my_m_bottomx20{
+padding: 20%;
+}
+
+/* ------------------------
+/END MARGIN BOTTOM
+------------------------- */
+
+/* ------------------------
+/MARGIN RIGHT
+------------------------- */
+.my_m_rigthx1{
+padding: 1%;
+}
+
+.my_m_rigthx2{
+padding: 2%;
+}
+
+.my_m_rigthx3{
+padding: 3%;
+}
+
+.my_m_rigthx4{
+padding: 4%;
+}
+
+.my_m_rigthx5{
+padding: 5%;
+}
+
+.my_m_rigthx6{
+padding: 6%;
+}
+
+.my_m_rigthx7{
+padding: 7%;
+}
+
+.my_m_rigthx8{
+padding: 8%;
+}
+
+.my_m_rigthx9{
+padding: 9%;
+}
+
+.my_m_rigthx10{
+padding: 10%;
+}
+
+.my_m_rigthx11{
+padding: 11%;
+}
+
+.my_m_rigthx12{
+padding: 12%;
+}
+
+.my_m_rigthx13{
+padding: 13%;
+}
+
+.my_m_rigthx14{
+padding: 14%;
+}
+
+.my_m_rigthx15{
+padding: 15%;
+}
+
+.my_m_rigthx16{
+padding: 16%;
+}
+
+.my_m_rigthx17{
+padding: 17%;
+}
+
+.my_m_rigthx18{
+padding: 18%;
+}
+
+.my_m_rigthx19{
+padding: 19%;
+}
+
+.my_m_rigthx20{
+padding: 20%;
+}
+
+/* ---------------
+/END MARGIN RIGHT
+--------------- */
+
+/* ----------------
+START MARGIN LEFT
+----------------- */
+.my_m_leftx1{
+padding: 1%;
+}
+
+.my_m_leftx2{
+padding: 2%;
+}
+
+.my_m_leftx3{
+padding: 3%;
+}
+
+.my_m_leftx4{
+padding: 4%;
+}
+
+.my_m_leftx5{
+padding: 5%;
+}
+
+.my_m_leftx6{
+padding: 6%;
+}
+
+.my_m_leftx7{
+padding: 7%;
+}
+
+.my_m_leftx8{
+padding: 8%;
+}
+
+.my_m_leftx9{
+padding: 9%;
+}
+
+.my_m_leftx10{
+padding: 10%;
+}
+
+.my_m_leftx11{
+padding: 11%;
+}
+
+.my_m_leftx12{
+padding: 12%;
+}
+
+.my_m_leftx13{
+padding: 13%;
+}
+
+.my_m_leftx14{
+padding: 14%;
+}
+
+.my_m_leftx15{
+padding: 15%;
+}
+
+.my_m_leftx16{
+padding: 16%;
+}
+
+.my_m_leftx17{
+padding: 17%;
+}
+
+.my_m_leftx18{
+padding: 18%;
+}
+
+.my_m_leftx19{
+padding: 19%;
+}
+
+.my_m_leftx20{
+padding: 20%;
+}
+/* -----------------
+/END PADDING LEFT
+----------------- */
+
+
+
+
+
