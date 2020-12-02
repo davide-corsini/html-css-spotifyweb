@@ -1,5 +1,5 @@
 .container{
-    max-width: 100%;
+    width: 100%;
     height: 100vh;
     overflow: hidden;
 }
@@ -27,12 +27,14 @@ nav{
 
 .nav-main{
     flex-grow: 2;
-    min-height: 300px;
-}
-ul.menu-nav-main{
-    width: 100%;
     overflow-y: scroll;
 }
+
+.menu-nav-main{
+    min-height: 250px;
+
+}
+
 
 
 
