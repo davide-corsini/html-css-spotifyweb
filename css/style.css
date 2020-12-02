@@ -8,7 +8,7 @@ main{
     width: 100%;
     height: calc(100% - 100px);
 }
-
+/* [LAYOUT ASIDE], [nav] > NAV-HEADER, NAV-MAIN, NAV-FOOTER*/
 section#aside {
     width: 200px;
     height: 100%;
@@ -17,6 +17,22 @@ section#aside {
     left: 0;
     background-color: orange;
 }
+nav{
+    height: calc(100% - 90px);
+    justify-content: space-between;
+}
+
+.nav-main{
+    flex-grow: 2;
+}
+
+
+
+
+
+
+
+
 #content-main{
     width: 100%;
     margin-left: 200px;
