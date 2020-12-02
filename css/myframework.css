@@ -25,6 +25,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.txt_c{
+    text-align: center;
+}
+
+.txt_r{
+    text-align: right;
+}
+
+.txt_l{
+    text-align: left;
+}
 .d_flex_r{
     display: flex;
     flex-direction: row;    
@@ -43,7 +55,7 @@
     float: right;
 }
 
-.clearfix{
+.clearfix::after{
     content: '';
     display: table;
     clear: both;

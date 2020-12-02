@@ -27,12 +27,11 @@ nav{
 
 .nav-main{
     flex-grow: 2;
-    overflow-y: scroll;
+    min-height: 250px;
 }
 
 .menu-nav-main{
-    min-height: 250px;
-
+    overflow-y: scroll;
 }
 
 
@@ -52,12 +51,23 @@ nav{
 
 .call-to-action{
     height: 100px;
-    width: 100%;
+    width: calc(100% - 200px);
     position: fixed;
     top: 0;
-    right: -200px;
+    right: 0;
+    line-height: 100px;
     background-color: rgba(0, 128, 0, 0.171);
 }
+
+.call-to-action button.btn{
+    padding: 5px 8px;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 25px;
+    color: white;
+    background-color: transparent;
+}
+
 
 footer{
     width: 100%;
