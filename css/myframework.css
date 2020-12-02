@@ -88,6 +88,14 @@ height: 100%;
     position: relative;
 }
 
+.d_i_block{
+    display: inline-block;
+}
+
+.vert_middle{
+    vertical-align: middle;
+}
+
 /* -------------------- */
 /* padding tot % */
 /* -------------------- */

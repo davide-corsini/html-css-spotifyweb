@@ -11,7 +11,7 @@ main{
 /* [LAYOUT ASIDE], [nav] > NAV-HEADER, NAV-MAIN, NAV-FOOTER*/
 section#aside {
     width: 200px;
-    height: 100%;
+    height: calc(100% - 90px);
     position: fixed;
     top: 0;
     left: 0;
@@ -24,9 +24,13 @@ section#aside {
 .my_color_grey{
     color: rgba(167, 163, 163, 0.678);
 }
-.my_width_35px{
-    width: 35px;
+.my_width_30px{
+    width: 30px;
 }
+.my_width_20px{
+    width: 20px;
+}
+
 
 
 nav{
@@ -38,16 +42,42 @@ nav{
 .menu-nav-header img{
     vertical-align: middle;
 }
+.menu-nav-header li a{
+    color: rgba(167, 163, 163, 0.678);
+}
+
+
+
 .nav-main{
     flex-grow: 2;
-    min-height: 250px;
+    min-height: 200px;
 }
 
 .menu-nav-main{
     overflow-y: scroll;
 }
 
+.menu-nav-main li a{
+    text-decoration: none;
+    color: rgba(167, 163, 163, 0.678);
+}
+.menu-nav-main li:not(:first-child){
+    padding-top: 8%;
+}
+#plus{
+    font-size: 45px;
+}
 
+.nav-main .create{
+    align-self: center;
+}
+
+
+img.profile{
+    height: 20px;
+    border-radius: 50%;
+    background-color: grey;
+}
 
 
 
@@ -89,8 +119,15 @@ footer{
     position: fixed;
     bottom: 0;
     left: 0;
-    background-color: black;
     /* debug */
     color: white;
     /* debug */
+}
+#foot-cont{
+    justify-content: space-between;
+}
+
+.box{
+    width: 200px;
+    height: 100%;
 }

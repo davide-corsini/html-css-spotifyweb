@@ -16,26 +16,26 @@
         <!-- start main-general -->
         <main class="d_flex_r orange">
             <!-- start section #aside-left -->
-            <section id="aside" class="d_flex_c my_pdx1 orange">
+            <section id="aside" class="d_flex_c my_pd_leftx1 my_pd_topx1 my_pd_rightx3 orange">
                 <!-- start [nav] section aside -->
                 <nav class="d_flex_c my_width100">
-                    <section class="nav-header grey">
-                        <div class="logo">
-                            <img src="img/logo.svg" alt="">
+                    <section class="nav-header">
+                        <div class="logo txt_c">
+                            <img class="my_width100" src="img/logo.svg" alt="">
                         </div>
-                        <ul class="menu-nav-header list_none  pink">
-                            <li>
+                        <ul class="menu-nav-header my_pd_topx11 my_pd_bottomx11 list_none">
+                            <li class="my_pd_bottomx5">
                                 <a class="txt_dec_none txt_cap" href="">
                                     <span class="">
-                                        <img class="my_width_35px" src="img/home.svg" alt="">
+                                        <img class="my_width_30px" src="img/home.svg" alt="">
                                     </span>
                                     home
                                 </a>
                             </li>
-                            <li>
+                            <li class="my_pd_bottomx5">
                                 <a class="txt_dec_none txt_cap" href="">
                                     <span class="">
-                                        <img class="my_width_35px" src="img/search.svg" alt="">
+                                        <img class="my_width_30px" src="img/search.svg" alt="">
                                     </span>
                                     cerca
                                 </a>
@@ -43,7 +43,7 @@
                             <li>
                                 <a class="txt_dec_none txt_cap" href="">
                                     <span class="">
-                                        <img class="my_width_35px" src="img/libreria.svg" alt="">
+                                        <img class="my_width_30px" src="img/libreria.svg" alt="">
                                     </span>
                                     La tua libreria
                                 </a>
@@ -51,9 +51,19 @@
                         </ul>
                     </section>
 
-                    <section class="nav-main green">
-                        <h3>CIAO SCLERO</h3>
-                        <ul class="menu-nav-main txt_cap list_none">
+                    <section class="nav-main">
+                        <h5 class="txt_up my_pd_bottomx5">playlist</h5>
+                        <div class="d_flex_r">
+                            <span id="plus">
+                                <a class="my_color_grey" href="">
+                                    <i class="fas fa-plus-square"></i>
+                                </a>
+                            </span>
+                            <span class="create my_pd_leftx10 txt_cap">
+                                crea playlist
+                            </span>
+                        </div>
+                        <ul class="menu-nav-main txt_cap list_none my_pd_topx5">
                                 <li><a href="">nome playlist</a></li>
                                 <li><a href="">nome playlist</a></li>
                                 <li><a href="">nome playlist</a></li>
@@ -64,9 +74,16 @@
                             </ul>     
                     </section>
 
-                    <section class="nav-footer blue">
-                        <span>installa app</span>
-                        <p>jon doe</p>
+                    <section class="nav-footer d_flex_c  my_pd_topx11">
+                        <div class="topolino my_pd_bottomx2">
+                            <img class="vert_middle download my_width_20px" src="img/download.svg" alt="">
+                            <span>Installa app</span>
+                        </div>
+                        <hr>
+                        <div class="my_pd_topx5">
+                            <img class="vert_middle profile my_width_20px" src="img/profile.svg" alt="">
+                            <span class="txt_cap">john doe</span>
+                        </div>
                     </section>
                 </nav>
                 <!-- /end [nav] section aside -->
@@ -101,8 +118,19 @@
         <!-- /end main-general -->
         
         <!-- start footer -->
-        <footer>
-            ciao sono il footer
+        <footer class="debug my_pdx1">
+            <div id="foot-cont" class="d_flex_r blue my_width100 my_height100">
+                <div class="box orange">
+
+                </div>
+                <div class="box grey">
+
+                </div>
+                <div class="box green">
+
+                </div>
+            </div>
+
         </footer>
         <!-- /end footer -->
     </div>
