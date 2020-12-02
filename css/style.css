@@ -3,6 +3,36 @@
     height: 100vh;
 }
 
+main{
+    width: 100%;
+    height: calc(100% - 100px);
+    overflow-y: scroll;
+}
+
+section#aside {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: orange;
+}
+#content-main{
+    width: 100%;
+    margin-left: 200px;
+    height: 100%;
+    padding-top: 100px;
+}
+
+.call-to-action{
+    height: 100px;
+    width: calc(100% - 200px);
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 128, 0, 0.171);
+}
+
 footer{
     width: 100%;
     height: 100px;
@@ -13,19 +43,4 @@ footer{
     /* debug */
     color: white;
     /* debug */
-}
-
-main{
-    width: 100%;
-    height: calc(100% - 100px);
-}
-
-section#aside {
-    width: 15%;
-    height: 100%;
-    background-color: orange;
-}
-#content-main{
-    width: 85%;
-    height: 100%;
 }
