@@ -20,7 +20,6 @@ section#aside {
     position: fixed;
     top: 0;
     left: 0;
-    overflow-y: hidden;
     /* debug */
     background-color: black;
     color: white;
@@ -51,6 +50,7 @@ main p{
 }
 
 nav{
+    overflow-y: hidden;
     height: 100%;
     justify-content: space-between;
 }
@@ -72,12 +72,12 @@ nav{
     height: 100%;
     flex-grow: 2;
     /* overflow: hidden; */
-    min-height: 230px;
+    min-height: 140px;
 }
 
 .menu-nav-main{
     overflow-y: auto;
-    height: 60%;
+    height: 100%;
 }
 
 .menu-nav-main li a{
@@ -86,7 +86,7 @@ nav{
 }
 .menu-nav-main li{
     font-size: 14px;
-    line-height: 1.5;
+    line-height: 30px;
 }
 #plus{
     font-size: 45px;
@@ -97,7 +97,8 @@ nav{
 }
 
 .nav-bottom{
-    /* max-height: 70px; */
+    background-color: pink;
+    height: 70px; */
 }
 
 img.profile{
