@@ -50,7 +50,7 @@ nav{
 
 .nav-main{
     flex-grow: 2;
-    min-height: 200px;
+    min-height: 280px;
 }
 
 .menu-nav-main{
@@ -88,8 +88,10 @@ img.profile{
     width: 100%;
     margin-left: 200px;
     height: 100%;
-    padding-top: 100px;
+    margin-top: 100px;
     overflow-y: scroll;
+    /* debug */
+    background-color: rgba(1, 1, 2, 0.37);
 }
 
 .call-to-action{
@@ -107,12 +109,61 @@ img.profile{
     padding: 5px 8px;
     border: 1px solid white;
     border-radius: 8px;
-    font-size: 25px;
+    font-size: 18px;
     color: white;
     background-color: transparent;
 }
+/* /end call-to action */
 
 
+
+
+/* DAVIDE RICORDATI DI TOGLIERE LE ALTEZZE DA DEBUG */
+/* star nav content menu */
+.spotify-container{
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+.bar-spotify {
+    height: 8%;
+    background-color: green;
+}
+#content-main ul.menu-nav-content{
+    background-color: red;
+    max-height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+ul.menu-nav-content li{
+    padding: 0 2%;
+}
+ul.menu-nav-content li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: small;
+}
+.recently, .createforyou, .popular {
+    /* height: 30%; */
+}
+.menu-album-recently{
+    justify-content: space-between;
+}
+.menu-album-recently li{
+    flex-basis: calc(100% / 6);
+}
+.menu-album-recently li{
+    padding-right: 1%;
+}
+/* delte */
+.height100px{
+    height: 100px;
+}
+/* delete */
+
+/* footer start */
 footer{
     width: 100%;
     height: 100px;
@@ -120,7 +171,7 @@ footer{
     bottom: 0;
     left: 0;
     /* debug */
-    color: white;
+    background-color: black;
     /* debug */
 }
 #foot-cont{
@@ -130,4 +181,65 @@ footer{
 .box{
     width: 200px;
     height: 100%;
+}
+
+.box.first.mini-left{
+    
+}
+
+.like-music{
+    align-items: center;
+    justify-items: flex-end;
+}
+
+/*  box MUSIC PLAYER */
+.box.second{
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+.box.second a, .box.third a{
+    color: rgba(167, 163, 163, 0.678);
+
+}
+ul.music-player{
+    line-height: 50px;
+}
+ul.music-player li a, .menu-audio li a{
+    font-size: 15px;
+}
+#special-player{
+    font-size: 30px;
+    margin: 0 20px;
+}
+ul.music-player li{
+    padding-right: 10%;
+    height: 50px;
+}
+
+.slider{
+    width: 600px;
+    margin: 0 20px;
+    vertical-align: middle;
+}
+ul.music-bar{
+    line-height: 40px;
+}
+
+ul.music-bar li{
+    height: 40px;
+}
+
+.menu-audio{
+    justify-content: space-between;
+    line-height: 90px;
+}
+.menu-audio li:not(:last-child){
+    padding-left: 10px;
+}
+
+.menu-audio a.slider-small .slider{
+    width: 60px;
+    vertical-align: middle;
 }
