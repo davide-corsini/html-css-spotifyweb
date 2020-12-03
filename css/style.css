@@ -4,14 +4,18 @@
     overflow: hidden;
 }
 
+
 main{
+    background: linear-gradient(to top, #3e3e3e, #3e3e3e, #363636, #212121, #181818  );
     max-width: 100%;
-    height: calc(100% - 100px);
+    height: 100%;
+overflow: hidden;
+
 }
 /* [LAYOUT ASIDE], [nav] > NAV-HEADER, NAV-MAIN, NAV-FOOTER*/
 section#aside {
     width: 200px;
-    height: calc(100% - 90px);
+    height: calc(100% - 80px);
     position: fixed;
     top: 0;
     left: 0;
@@ -30,8 +34,13 @@ section#aside {
 .my_width_20px{
     width: 20px;
 }
-
-
+main h2, main h5{
+    color: white;
+}
+main p{
+    font-size: 10px;
+    color: rgba(167, 163, 163, 0.678);
+}
 
 nav{
     height: calc(100% - 100px);
@@ -76,7 +85,6 @@ nav{
 img.profile{
     height: 20px;
     border-radius: 50%;
-    background-color: grey;
 }
 
 
@@ -85,13 +93,13 @@ img.profile{
 
 
 #content-main{
-    width: 100%;
+    width: calc(100% - 200px);
     margin-left: 200px;
-    height: 100%;
+    height: calc(100% - 180px);
+    margin-bottom: 80px;
     margin-top: 100px;
     overflow-y: scroll;
     /* debug */
-    background-color: rgba(1, 1, 2, 0.37);
 }
 
 .call-to-action{
@@ -102,13 +110,14 @@ img.profile{
     right: 0;
     z-index: 1;
     line-height: 100px;
-    background-color: rgba(40, 47, 61, 0.144);
+    background-color: rgba(143, 143, 143, 0.5);
+    opacity: 20%;
 }
 
 .call-to-action button.btn{
-    padding: 5px 8px;
+    padding: 10px 12px;
     border: 1px solid white;
-    border-radius: 8px;
+    border-radius: 20px;
     font-size: 18px;
     color: white;
     background-color: transparent;
@@ -125,12 +134,8 @@ img.profile{
     height: 100%;
     justify-content: space-between;
 }
-.bar-spotify {
-    height: 8%;
-    background-color: green;
-}
+
 #content-main ul.menu-nav-content{
-    background-color: red;
     max-height: 50px;
     width: 100%;
     align-items: center;
@@ -144,11 +149,14 @@ ul.menu-nav-content li a{
     text-transform: uppercase;
     font-weight: 600;
     font-size: small;
+    color: rgba(167, 163, 163, 0.678);
+
 }
 .recently, .createforyou, .popular {
     /* height: 30%; */
 }
 .menu-album-recently{
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .menu-album-recently li{
@@ -162,11 +170,23 @@ ul.menu-nav-content li a{
     height: 100px;
 }
 /* delete */
+.menu-create li{
+    flex-basis: calc(100% / 6);
+    padding-right: 2%;
+}
 
+
+.menu-popular li{
+    padding-right: 2%;
+    flex-basis: calc(100% / 6);
+}
+.menu-popular li img{
+    border-radius: 50%;
+}
 /* footer start */
 footer{
     width: 100%;
-    height: 100px;
+    height: 80px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -207,15 +227,15 @@ ul.music-player{
     line-height: 50px;
 }
 ul.music-player li a, .menu-audio li a{
-    font-size: 15px;
+    font-size: 12px;
 }
 #special-player{
-    font-size: 30px;
+    font-size: 20px;
     margin: 0 20px;
 }
 ul.music-player li{
     padding-right: 10%;
-    height: 50px;
+    height: 30px;
 }
 
 .slider{
