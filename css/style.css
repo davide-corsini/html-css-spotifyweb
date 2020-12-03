@@ -9,8 +9,6 @@ main{
     background: linear-gradient(to top, #3e3e3e, #3e3e3e, #363636, #212121, #181818  );
     max-width: 100%;
     height: 100%;
-overflow: hidden;
-
 }
 /* [LAYOUT ASIDE], [nav] > NAV-HEADER, NAV-MAIN, NAV-FOOTER*/
 section#aside {
@@ -43,7 +41,7 @@ main p{
 }
 
 nav{
-    height: calc(100% - 100px);
+    height: 100%;
     justify-content: space-between;
 }
 
@@ -58,12 +56,12 @@ nav{
 
 
 .nav-main{
-    flex-grow: 2;
+    flex-grow: 10;
     min-height: 280px;
 }
 
 .menu-nav-main{
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .menu-nav-main li a{
