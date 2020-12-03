@@ -1,3 +1,6 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 .container{
     width: 100%;
     height: 100vh;
@@ -58,10 +61,10 @@ nav{
 .nav-main{
     flex-grow: 10;
     overflow: hidden;
+    min-height: 280px;
 }
 
 .menu-nav-main{
-    min-height: 280px;
     overflow-y: auto;
 }
 
@@ -94,9 +97,9 @@ img.profile{
 #content-main{
     width: calc(100% - 200px);
     margin-left: 200px;
-    height: calc(100% - 180px);
+    height: calc(100% - 80px);
     margin-bottom: 80px;
-    margin-top: 100px;
+    padding-top: 100px;
     overflow-y: scroll;
     /* debug */
 }
@@ -201,14 +204,24 @@ footer{
     width: 200px;
     height: 100%;
 }
-
-.box.first.mini-left{
-    
+.mini-player{
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.mini-player li{
+    padding: 3%;
+    flex-basis: calc(100% / 4);
 }
 
-.like-music{
-    align-items: center;
-    justify-items: flex-end;
+.mini-player li h5{
+    color: white;
+    font-size: 10px;
+}
+
+
+.mini-player p{
+    font-size: 6px;
 }
 
 /*  box MUSIC PLAYER */
@@ -220,7 +233,6 @@ footer{
 }
 .box.second a, .box.third a{
     color: rgba(167, 163, 163, 0.678);
-
 }
 ul.music-player{
     line-height: 50px;
@@ -261,4 +273,22 @@ ul.music-bar li{
 .menu-audio a.slider-small .slider{
     width: 60px;
     vertical-align: middle;
+}
+
+
+/* media xs */
+@media screen (max-width: 480px){
+
+}
+/* media sm */
+@media screen (max-width: 768px){
+
+}
+/* media md */
+@media screen (max-width: 992px){
+
+}
+/* media lg */
+@media screen (max-width: 1170px){
+
 }

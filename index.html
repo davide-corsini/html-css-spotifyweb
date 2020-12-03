@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
     crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
 </head>
 <body>
     <!-- start page container -->
@@ -16,7 +19,7 @@
         <!-- start main-general -->
         <main class="d_flex_r">
             <!-- start section #aside-left -->
-            <section id="aside" class="d_flex_c my_pd_leftx1 my_pd_topx1 my_pd_rightx3">
+            <section id="aside" class="d_flex_c my_pd_leftx1 my_pd_topx1 my_pd_rightx2">
                 <!-- start [nav] section aside -->
                 <nav class="d_flex_c my_width100">
                     <section class="nav-header debug grey">
@@ -63,7 +66,7 @@
                                 crea playlist
                             </span>
                         </div>
-                        <ul class="menu-nav-main txt_cap list_none">
+                        <ul class="menu-nav-main my_height100 txt_cap list_none">
                                 <li><a href="#">nome playlist</a></li>
                                 <li><a href="#">nome playlist</a></li>
                                 <li><a href="#">nome playlist</a></li>
@@ -104,7 +107,7 @@
                 <!-- ----------------------------------- -->
                 <!-- start real content with all albums, all title etc -->
                 <div class="spotify-container d_flex_c">
-                    <section class="bar-spotify my_width100">
+                    <section class="bar-spotify my_width100 my_pd_topx3">
                         <ul class="menu-nav-content list_none d_flex_r">
                             <li><a href="#">in evidenza</a></li>
                             <li><a href="#">podcast</a></li>
@@ -210,30 +213,25 @@
         <!-- start footer -->
         <footer class="debug">
             <div id="foot-cont" class="d_flex_r my_width100 my_height100">
-                <div class="box first mini-left d_flex_r">
-                    <ul class="d_flex_r menu-album-mini list_none">
+                <div class="box first d_flex_r">
+                    <ul class="mini-player d_flex_r list_none my_pd_leftx5">
                         <li>
-                            <a href="">
-                                ciao
-                                <!-- <img class="my_width100" src="img/sinister.jpeg" alt=""> -->
-                            </a>
+                            <a href="#">
+                                <img class="vert_middle my_width100" src="img/sinister.jpeg" alt="">
+                        </a>
+                    </li>
+                        <li class="txt_c txt_cap">
+                            <h5>sinister</h5>
+                            <p class="my_color_grey">brano nome</p>
                         </li>
-                        <li>
-                            <a href="">
-                                Sinister
-                            </a>
-                            <p>brano nome</p>
-                        </li>
-                    </ul>
-                    <ul class="like-music d_flex_r list_none">
-                        <li>
-                            <a href="">
+                        <li class="txt_r">
+                            <a class="my_color_grey" href="#">
                                 <i class="far fa-heart"></i>
                             </a>
                         </li>
-                        <li>
-                            <a href="">
-                                <i class="far fa-folder"></i>
+                        <li class="txt_l">
+                            <a class="my_color_grey" href="#">
+                                <i class="far fa-folder"></i>                          
                             </a>
                         </li>
                     </ul>
