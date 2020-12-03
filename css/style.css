@@ -20,6 +20,7 @@ section#aside {
     position: fixed;
     top: 0;
     left: 0;
+    overflow-y: hidden;
     /* debug */
     background-color: black;
     color: white;
@@ -34,6 +35,12 @@ section#aside {
 }
 .my_width_20px{
     width: 20px;
+}
+.my_width_14px{
+    width: 14px;
+}
+.my_width_10px{
+    width: 10px;
 }
 main h2, main h5{
     color: white;
@@ -55,25 +62,31 @@ nav{
 .menu-nav-header li a{
     color: rgba(167, 163, 163, 0.678);
 }
-
-
-
+/* ---------------------- */
+/* nav-main */
+.main-playlist{
+    width: 100%;
+    height: 50px;
+}
 .nav-main{
-    flex-grow: 10;
-    overflow: hidden;
-    min-height: 280px;
+    height: 100%;
+    flex-grow: 2;
+    /* overflow: hidden; */
+    min-height: 230px;
 }
 
 .menu-nav-main{
     overflow-y: auto;
+    height: 60%;
 }
 
 .menu-nav-main li a{
     text-decoration: none;
     color: rgba(167, 163, 163, 0.678);
 }
-.menu-nav-main li:not(:first-child){
-    padding-top: 8%;
+.menu-nav-main li{
+    font-size: 14px;
+    line-height: 1.5;
 }
 #plus{
     font-size: 45px;
@@ -83,12 +96,22 @@ nav{
     align-self: center;
 }
 
+.nav-bottom{
+    /* max-height: 70px; */
+}
 
 img.profile{
+    background: rgba(158, 154, 154, 0.726);
     height: 20px;
     border-radius: 50%;
 }
-
+span.font-small{
+    font-size: 10px;
+}
+span.profile-text{
+    font-weight: 700;
+    font-size: 12px;
+}
 
 
 
@@ -112,8 +135,8 @@ img.profile{
     right: 0;
     z-index: 1;
     line-height: 100px;
-    background-color: rgba(143, 143, 143, 0.5);
-    opacity: 20%;
+    background-color: black;
+    opacity: 50%;
 }
 
 .call-to-action button.btn{
@@ -250,7 +273,7 @@ ul.music-player li{
 }
 
 .slider{
-    width: 600px;
+    max-width: 550px;
     margin: 0 20px;
     vertical-align: middle;
 }
