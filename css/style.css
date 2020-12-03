@@ -57,10 +57,11 @@ nav{
 
 .nav-main{
     flex-grow: 10;
-    min-height: 280px;
+    overflow: hidden;
 }
 
 .menu-nav-main{
+    min-height: 280px;
     overflow-y: auto;
 }
 
