@@ -97,7 +97,6 @@ nav{
 }
 
 .nav-bottom{
-    background-color: pink;
     height: 70px; */
 }
 
@@ -299,25 +298,13 @@ ul.music-bar li{
     vertical-align: middle;
 }
 
-@media screen and (max-width: 568px){
 
-}
-@media screen and (max-width: 768px){
-    ul.menu-nav-content{
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-    ul.menu-nav-content li:onl{
-        
-    }
-    ul.menu-album-recently{
-        flex-wrap: wrap;
-        justify-content: flex-start;
-    }
-    ul.menu-album-recently li,
-    ul.menu-create li,
-    ul.menu-popular li{ 
-        flex-basis: calc(100% / 2 - 15px);
+
+
+
+@media screen and (min-width: 993px){
+    .pippo{
+        display: none;
     }
 }
 /* media query md */
@@ -337,4 +324,66 @@ ul.music-bar li{
     ul.menu-popular li{ 
         flex-basis: calc(100% / 4 - 15px);
     }
+    .pippo{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+    ul.menu-nav-content{
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    ul.menu-nav-content li:onl{
+        
+    }
+    ul.menu-album-recently{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    ul.menu-album-recently li,
+    ul.menu-create li,
+    ul.menu-popular li{ 
+        flex-basis: calc(100% / 2 - 15px);
+    }
+    .pippo{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 568px){
+    section#aside{
+        padding: 0%;
+        max-width: 10%;
+    }
+    nav{
+        text-align: center;
+    }
+    
+    #content-main,
+    .call-to-action{
+        min-width: calc(100% - 10%);
+        margin-left: 10%;        
+    }
+    .xs_none{
+        display: none;
+    }
+    .xs_block,
+    .mini-logo{
+        display: block;
+    }
+    .nav-bottom{
+        padding: 0;
+    }
+    .icon-spotify img,
+    img.download,
+    img.profile,
+    {
+        width: 50%;
+    }
+    .pippo{
+        display: block;
+    }
+    .pippo img{
+        width: 80%;
+    }    
 }
