@@ -2,7 +2,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .container{
-    width: 100%;
+    max-width: 100%;
     height: 100vh;
     overflow: hidden;
 }
@@ -162,10 +162,12 @@ span.profile-text{
 }
 
 #content-main ul.menu-nav-content{
-    max-height: 50px;
-    width: 100%;
-    align-items: center;
+    height: 60px;
     justify-content: center;
+    align-items: center;
+    /* da rivedere */
+    flex: wrap;
+    /* da rivedere è importante WARNING WARNING */
 }
 ul.menu-nav-content li{
     padding: 0 2%;
@@ -186,25 +188,23 @@ ul.menu-nav-content li a{
     justify-content: space-between;
 }
 .menu-album-recently li{
-    flex-basis: calc(100% / 6);
+    flex-basis: calc(100% / 6 - 15px);
+    margin-right: 15px;
 }
-.menu-album-recently li{
-    padding-right: 1%;
-}
-/* delte */
+
 .height100px{
     height: 100px;
 }
 /* delete */
 .menu-create li{
-    flex-basis: calc(100% / 6);
-    padding-right: 2%;
+    flex-basis: calc(100% / 6 - 15px);
+    margin-right: 15px;
 }
 
 
 .menu-popular li{
-    padding-right: 2%;
-    flex-basis: calc(100% / 6);
+    flex-basis: calc(100% / 6 - 15px);
+    margin-right: 15px;
 }
 .menu-popular li img{
     border-radius: 50%;
@@ -299,20 +299,42 @@ ul.music-bar li{
     vertical-align: middle;
 }
 
-
-/* media xs */
-@media screen (max-width: 480px){
+@media screen and (max-width: 568px){
 
 }
-/* media sm */
-@media screen (max-width: 768px){
-
+@media screen and (max-width: 768px){
+    ul.menu-nav-content{
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    ul.menu-nav-content li:onl{
+        
+    }
+    ul.menu-album-recently{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    ul.menu-album-recently li,
+    ul.menu-create li,
+    ul.menu-popular li{ 
+        flex-basis: calc(100% / 2 - 15px);
+    }
 }
-/* media md */
-@media screen (max-width: 992px){
-
-}
-/* media lg */
-@media screen (max-width: 1170px){
-
+/* media query md */
+@media screen and (min-width: 769px) and (max-width: 992px){
+    ul.menu-nav-content{
+        flex-wrap: wrap;
+    }
+    ul.menu-nav-content li{
+        flex-basis: (100% / 5 );
+    }
+    ul.menu-album-recently{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    ul.menu-album-recently li,
+    ul.menu-create li,
+    ul.menu-popular li{ 
+        flex-basis: calc(100% / 4 - 15px);
+    }
 }

@@ -1,2 +1,6 @@
 [1203/095828.691:ERROR:directory_reader_win.cc(43)] FindFirstFile: Impossibile trovare il percorso specificato. (0x3)
 [1203/105735.448:ERROR:directory_reader_win.cc(43)] FindFirstFile: Impossibile trovare il percorso specificato. (0x3)
+[1204/000015.127:ERROR:directory_reader_win.cc(43)] FindFirstFile: Impossibile trovare il percorso specificato. (0x3)
+[1204/012940.726:ERROR:process_reader_win.cc(151)] SuspendThread: Accesso negato. (0x5)
+[1204/012940.726:ERROR:exception_snapshot_win.cc(99)] thread ID 19168 not found in process
+[1204/095538.452:ERROR:directory_reader_win.cc(43)] FindFirstFile: Impossibile trovare il percorso specificato. (0x3)
