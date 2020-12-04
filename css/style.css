@@ -23,6 +23,8 @@ section#aside {
     /* debug */
     background-color: black;
     color: white;
+    overflow-y: hidden;
+
     /* debug */
 }
 /* da mettere nelle general rulez RICORDATELO */
@@ -56,6 +58,10 @@ nav{
 }
 
 /* nav header */
+.menu-nav-header{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
 .menu-nav-header img{
     vertical-align: middle;
 }
@@ -77,7 +83,7 @@ nav{
 
 .menu-nav-main{
     overflow-y: auto;
-    height: 100%;
+    height: 70%;
 }
 
 .menu-nav-main li a{
@@ -97,7 +103,7 @@ nav{
 }
 
 .nav-bottom{
-    height: 70px; */
+    height: 70px;
 }
 
 img.profile{
@@ -220,7 +226,7 @@ footer{
     /* debug */
 }
 #foot-cont{
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .box{
@@ -274,6 +280,7 @@ ul.music-player li{
 
 .slider{
     max-width: 550px;
+    min-width: 50px;
     margin: 0 20px;
     vertical-align: middle;
 }
@@ -384,6 +391,69 @@ ul.music-bar li{
         display: block;
     }
     .pippo img{
-        width: 80%;
-    }    
+        width: 60%;
+    } 
+    img.profile{
+        margin-top: 25%;
+    }   
+
+    /* query footer */
+    .music-bar{
+        max-width: 100%;
+        justify-content: space-between;
+    }
+
+    
+}
+
+
+
+@media screen and (min-height: 270px) and (max-height: 375px){
+    .playlist{
+    max-height: 30px;
+    padding-top: 3%;
+    margin-bottom: 10px;
+    }
+    .playlist span{
+        line-height: 30px;
+        font-size: 10px;
+    }
+    .playlist h5{
+        font-size: 10px;
+    }
+    .nav-bottom{
+        display: none;
+    }
+    .nav-main{
+        flex-grow: 2;
+        min-height: 50px;
+        height: 50%;
+    }
+    ul.menu-nav-main{
+        height: 70%;
+        padding-bottom: 6%;
+    }
+    ul.menu-nav-main li{
+        font-size: 10px;
+        line-height: 25px;
+        min-height: 14px;
+    }
+    .menu-nav-header img{
+        width: 20px;
+    }
+
+    #plus{
+        font-size: 10px;
+    }
+    .icon-small{
+        font-size: 12px;
+    }
+    .logo{
+        width: 50%;
+        margin: 0 25%;
+    }
+    .menu-nav-header{
+        padding-top: 2%;
+        padding-bottom: 1%;
+    } 
 }
