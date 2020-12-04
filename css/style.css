@@ -121,8 +121,6 @@ span.profile-text{
 
 
 
-
-
 #content-main{
     width: calc(100% - 200px);
     margin-left: 200px;
@@ -267,10 +265,11 @@ footer{
     color: rgba(167, 163, 163, 0.678);
 }
 ul.music-player{
-    flex-basis: calc(100% / 5);
-    line-height: 50px;
+    justify-content: center;
+    align-items: center;
 }
 ul.music-player li a{
+    flex-basis: calc(100% / 5);
     font-size: 15px;
 }
 #special-player{
@@ -278,8 +277,6 @@ ul.music-player li a{
     margin: 0 20px;
 }
 ul.music-player li{
-    padding-right: 10%;
-    height: 30px;
 }
 
 
@@ -288,7 +285,6 @@ ul.music-bar{
 }
 
 ul.music-bar li{
-    max-height: 40px;
 }
 ul.music-bar li a{
     font-size: 8px;
@@ -312,6 +308,13 @@ ul.music-bar li a{
     font-size: 12px;
 }
 .menu-audio li:not(:last-child){
+}
+
+.bar-audio{
+    content: '';
+    height: 3px;
+    background-color: white;
+    width: 100px;
 }
 
 
