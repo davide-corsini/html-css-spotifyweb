@@ -232,14 +232,11 @@ footer{
     height: 100%;
 }
 .mini-player{
-    background-color: red;
     width: 100%;
     justify-content: space-around;
     align-items: center;
 }
 .mini-player li{
-    background-color: blue;
-    border: 1px solid white;
     padding: 3%;
     flex-basis: calc(97% / 4);
 }
@@ -254,6 +251,9 @@ footer{
 }
 
 /*  box MUSIC PLAYER */
+.box.second a, .box.third a{
+    color: rgba(167, 163, 163, 0.678);
+}
 .box.second{
     max-width: 100%;
     flex-grow: 1;
@@ -261,34 +261,75 @@ footer{
     align-items: center;
     background-color: black;
 }
-.box.second a, .box.third a{
-    color: rgba(167, 163, 163, 0.678);
-}
+/* questo va bene */
 ul.music-player{
     justify-content: center;
     align-items: center;
 }
+/* questo va bene */
 ul.music-player li a{
     flex-basis: calc(100% / 5);
     font-size: 15px;
 }
+/* player button */
 #special-player{
     font-size: 25px;
     margin: 0 20px;
 }
 ul.music-player li{
 }
-
-
 ul.music-bar{
-    line-height: 40px;
+    height: 30px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-ul.music-bar li{
-}
-ul.music-bar li a{
+ul.music-bar li {
+    margin: 0 1%;
     font-size: 8px;
+    
 }
+
+#second{
+    font-size:  5px;
+}
+
+
+.bar-audio{
+    /* position: relative; */
+    justify-content: start;
+    width: 360px;
+    height: 3px;
+    background-color: grey;
+    border-radius: 8px;
+    display: inline-block;
+}
+.bar-audio-2{
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    background-color: white;
+    width: 80px;
+    height: 3px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+
+.circle-volume{
+    /* position: absolute; */
+    /* left: 79px;
+    top: -3.5px; */
+    align-self: center;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: hotpink;
+}
+
+/* terzo box */
 .box.third{
     min-width: 200px;
 }
@@ -301,22 +342,14 @@ ul.music-bar li a{
 .menu-audio li{
     background-color:red;
     border: 1px solid white;
-    flex-basis: calc(100% / 4);
+    flex-basis: calc(100% / 4 - 20px);
+    margin: 0 10px;
+
 }
 
 .menu-audio li a{
     font-size: 12px;
 }
-.menu-audio li:not(:last-child){
-}
-
-.bar-audio{
-    content: '';
-    height: 3px;
-    background-color: white;
-    width: 100px;
-}
-
 
 
 

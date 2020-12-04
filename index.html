@@ -216,7 +216,7 @@
             <!-- conteiner principale per il flex! -->
             <div id="foot-cont" class="d_flex_r my_width100 my_height100">
                 <!-- firs container left -->
-                <div class="box first d_flex_r pink">
+                <div class="box first d_flex_r">
                     <ul class="mini-player d_flex_r list_none my_pd_leftx5">
                         <li>
                             <a href="#">
@@ -241,7 +241,7 @@
                 </div>
                 <!-- /end first container left -->
                 <!-- music player -->
-                <div class="box second d_flex_c orange">
+                <div class="box second d_flex_c">
                     <ul class="blue my_width100 music-player d_flex_r list_none">
                         <li>
                             <a href="#">
@@ -271,12 +271,17 @@
                         </li>
                     </ul>
 
-                    <ul class="grey music-bar list_none d_flex_r">
-                        <li><a class="seconds txt_dec_none" href="#">0:25</a></li>
-                        <li class="bar-audio">
+                    <ul class="music-bar list_none d_flex_r">
+                        <li class=""><a id="second" class=" txt_dec_none" href="#">0:25</a></li>
+                        <li class="volume-bar d_flex_r">
+                            <div class="bar-audio d_flex_r">
+                                <div class="bar-audio-2">
+                                </div>
+                                <div class="circle-volume"></div>
+                            </div>
                             
                         </li>
-                        <li><a class="seconds txt_dec_none" href="#">4:35</a></li>
+                        <li class=""><a id="second" class=" txt_dec_none" href="#">4:35</a></li>
                     </ul>
 
                 </div>
@@ -299,9 +304,6 @@
                             <a href="#">
                                 <i class="fas fa-volume-up"></i>
                             </a>
-                        </li>
-                        <li>
-                            ciao 
                         </li>
                     </ul>
 
