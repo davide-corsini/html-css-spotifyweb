@@ -230,7 +230,7 @@ footer{
 }
 
 .box{
-    width: 200px;
+    max-width: 200px;
     height: 100%;
 }
 .mini-player{
@@ -255,6 +255,7 @@ footer{
 
 /*  box MUSIC PLAYER */
 .box.second{
+    max-width: 100%;
     flex-grow: 1;
     justify-content: space-around;
     align-items: center;
@@ -264,13 +265,14 @@ footer{
     color: rgba(167, 163, 163, 0.678);
 }
 ul.music-player{
+    flex-basis: calc(100% / 5);
     line-height: 50px;
 }
-ul.music-player li a, .menu-audio li a{
-    font-size: 12px;
+ul.music-player li a{
+    font-size: 15px;
 }
 #special-player{
-    font-size: 20px;
+    font-size: 25px;
     margin: 0 20px;
 }
 ul.music-player li{
@@ -279,8 +281,9 @@ ul.music-player li{
 }
 
 .slider{
-    max-width: 550px;
-    min-width: 50px;
+    max-width: 100%;
+    min-width: 300px;
+    /* min-width: 100px; */
     margin: 0 20px;
     vertical-align: middle;
 }
@@ -289,21 +292,25 @@ ul.music-bar{
 }
 
 ul.music-bar li{
-    height: 40px;
+    max-height: 40px;
+}
+ul.music-bar li a{
+    font-size: 8px;
 }
 
 .menu-audio{
-    justify-content: space-between;
-    line-height: 90px;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu-audio li a{
+    font-size: 12px;
 }
 .menu-audio li:not(:last-child){
-    padding-left: 10px;
 }
 
-.menu-audio a.slider-small .slider{
-    width: 60px;
-    vertical-align: middle;
-}
+
 
 
 
@@ -337,11 +344,10 @@ ul.music-bar li{
 }
 @media screen and (max-width: 768px){
     ul.menu-nav-content{
-        flex-direction: row;
-        justify-content: flex-end;
+        flex-wrap: wrap;
     }
-    ul.menu-nav-content li:onl{
-        
+    ul.menu-nav-content li{
+        flex-basis: (100% / 3 );
     }
     ul.menu-album-recently{
         flex-wrap: wrap;
@@ -355,9 +361,17 @@ ul.music-bar li{
     .pippo{
         display: none;
     }
+    /* footer */
+        .box{
+        min-width: 200px;
+    }
+    .slider{
+        min-width: 100px;
+    }
+
 }
 
-@media screen and (max-width: 568px){
+@media screen and (max-width: 568px){   
     section#aside{
         padding: 0%;
         max-width: 10%;
@@ -398,10 +412,6 @@ ul.music-bar li{
     }   
 
     /* query footer */
-    .music-bar{
-        max-width: 100%;
-        justify-content: space-between;
-    }
 
     
 }
