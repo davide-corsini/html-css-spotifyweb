@@ -35,7 +35,7 @@
                                     <span class="icon-spotify">
                                         <img class="my_width_30px" src="img/home.svg" alt="">
                                     </span>
-                                    <span class="icon-small xs_none">home</span>                                    
+                                    <span class="icon-small xs_none my_color_white">home</span>                                    
                                 </a>
                             </li>
                             <li class="my_pd_bottomx5">
@@ -43,7 +43,7 @@
                                     <span class="icon-spotify">
                                         <img class="my_width_30px" src="img/search.svg" alt="">
                                     </span>
-                                    <span class="icon-small xs_none">cerca</span>
+                                    <span class="hover_white icon-small xs_none">cerca</span>
                                 </a>
                             </li>
                             <li>
@@ -51,7 +51,7 @@
                                     <span class="icon-spotify">
                                         <img class="my_width_30px" src="img/libreria.svg" alt="">
                                     </span>
-                                    <span class="icon-small xs_none">La tua libreria</span>
+                                    <span class="hover_white icon-small xs_none">La tua libreria</span>
                                 </a>
                             </li>
                         </ul>
@@ -60,11 +60,11 @@
                         <h5 class="txt_up">playlist</h5>
                         <div class="main-playlist d_flex_r">
                             <span id="plus">
-                                <a class="my_color_grey" href="#">
+                                <a class="hover_white my_color_grey" href="#">
                                     <i class="fas fa-plus-square"></i>
                                 </a>
                             </span>
-                            <span class="create my_pd_leftx10 txt_cap">
+                            <span class="create my_pd_leftx10 txt_cap txt_underline cursor">
                                 crea playlist
                             </span>
                         </div>
@@ -72,25 +72,25 @@
 
                     <section class="nav-main xs_none my_height100">
                         <ul class="menu-nav-main txt_cap list_none">
-                                <li><a href="#">nome playlist 1</a></li>
-                                <li><a href="#">nome playlist 2</a></li>
-                                <li><a href="#">nome playlist 3</a></li>
-                                <li><a href="#">nome playlist 4</a></li>
-                                <li><a href="#">nome playlist 5</a></li>
-                                <li><a href="#">nome playlist 6</a></li>
-                                <li><a href="#">nome playlist 7</a></li>
+                                <li><a class="hover_white" href="#">nome playlist 1</a></li>
+                                <li><a class="hover_white" href="#">nome playlist 2</a></li>
+                                <li><a class="hover_white" href="#">nome playlist 3</a></li>
+                                <li><a class="hover_white" href="#">nome playlist 4</a></li>
+                                <li><a class="hover_white" href="#">nome playlist 5</a></li>
+                                <li><a class="hover_white" href="#">nome playlist 6</a></li>
+                                <li><a class="hover_white" href="#">nome playlist 7</a></li>
                         </ul>     
                     </section>
 
                     <section class="nav-bottom my_pd_bottomx4">
                         <div class="my_pd_bottomx5">
-                            <img class="vert_middle download my_width_14px" src="img/download.svg" alt="">
-                            <span class="xs_none my_pd_leftx2 my_color_grey font-small">Installa app</span>
+                            <img class="cursor vert_middle download my_width_14px" src="img/download.svg" alt="">
+                            <span class="xs_none my_pd_leftx2 my_color_grey font-small hover_white cursor">Installa app</span>
                         </div>
                         <hr class="xs_none">
                         <div class="my_pd_topx2">
-                            <img class="vert_middle profile my_width_100" src="img/profileme.jpeg" alt="">
-                            <span class="xs_none my_pd_leftx2 profile-text txt_cap">davide corsini</span>
+                            <img class="cursor vert_middle profile my_width_100" src="img/profileme.jpeg" alt="">
+                            <span class="xs_none my_pd_leftx2 profile-text txt_underline txt_cap cursor txt_underline">davide corsini</span>
                         </div>
                     </section>
                 </nav>
@@ -98,116 +98,158 @@
             </section>
             <!-- start section #content-main -->
             <section id="content-main" class="d_flex_r">
+                <!-- start call-to-action -->
                 <div class="call-to-action txt_r my_pd_rightx1">
-                    <!-- <form action=""> -->
-                        
-                            <button class="btn txt_up">effetua l'up-grade</button>
-                        
-                    </form>
+                    <a class="btn txt_up">effettua l'upgrade</a>
                 </div>
+                <!-- /end call-to-action -->
                 <!-- ----------------------------------- -->
                 <!-- start real content with all albums, all title etc -->
                 <div class="spotify-container d_flex_c">
+                    <!-- start nav bar menu content main with (in evidenza, scopri di piu etc) -->
                     <section class="bar-spotify my_width100 my_pd_topx3">
                         <ul class="menu-nav-content list_none d_flex_r">
-                            <li><a href="#">in evidenza</a></li>
-                            <li><a href="#">podcast</a></li>
-                            <li><a href="#">classifiche</a></li>
-                            <li><a href="#">generi e mood</a></li>
-                            <li><a href="#">nuove uscite</a></li>
-                            <li><a href="#">scopri</a></li>
+                            <li>
+                                <a class="hover_white" href="#">in evidenza</a>
+                                <hr class="d_none">
+                            </li>
+                            <li>
+                                <a class="hover_white" href="#">podcast</a>
+                                <hr class="d_none">
+                            </li>
+                            <li>
+                                <a class="hover_white" href="#">classifiche</a>
+                                <hr class="d_none">
+                            </li>
+                            <li>
+                                <a class="hover_white" href="#">generi e mood</a>
+                                <hr class="d_none">
+                            </li>
+                            <li>
+                                <a class="hover_white" href="#">nuove uscite</a>
+                                <hr class="d_none">
+                            </li>
+                            <li>
+                                <a class="hover_white" href="#">scopri</a>
+                                <hr class="d_none">
+                            </li>
                         </ul>
                     </section>
+                    <!-- /end nav bar main -->
+
+                    <!-- start section recently -->
                     <section class="recently my_width100 my_pdx1">
-                        <!-- faccio che la mia section recently diventii un d flex row con un justify content space between  -->
                         <h2 class="my_pd_topx1 my_pd_bottomx2">Recently played</h2>
                         <ul class="my_width100 menu-album-recently d_flex_r list_none">
-                            <li class="txt_cap txt_c">
-                                <a href="">
-                                    <img class="my_width100" src="img/metal_lifting.jpg" alt="">
-                                </a>
+                            <!-- ------------------- -->
+                            <li class="txt_cap txt_c my_relative">                                    
+                                <a class="" href="">
+                                    <img class="my_width100 my_filter" src="img/metal_lifting.jpg" alt="">
+                                    <i id="abs" class="far fa-play-circle"></i>
+                                </a>            
                                 <h5 class="my_pd_topx1 my_pd_bottomx4">heavy metal</h5>
-                                <p>subtitle</p>
+                                <p>subtitle</p>                                                          
                             </li>
-                            <li class="txt_cap txt_c">
-                                <a href="">
-                                    <img class="my_width100" src="img/stranger.jpeg" alt="">
+                            <!-- --------------- -->
+                            <li class="my_relative txt_cap txt_c">
+                                <a class="" href="">
+                                    <img class="my_width100 my_filter" src="img/stranger.jpeg" alt="">
+                                    <i id="abs" class="far fa-play-circle"></i>
                                 </a>
                                 <h5 class="my_pd_topx1 my_pd_bottomx4">stranger things, vol.1 (a netflix original series soundtrack)</h5>
                                 <p>kyle dixon & micheal stein</p>
                             </li>
-                            <li class="txt_c">                                
+                            <!-- ---------------------- -->
+                            <li class="my_relative txt_c">                                
                                 <a href="">
-                                    <img class="my_width100" src="img/aquietplace.jpeg" alt="">
+                                    <img class="my_width100 my_filter" src="img/aquietplace.jpeg" alt="">
+                                    <i id="abs" class="far fa-play-circle"></i>
                                 </a>
                                 <h5 class="my_pd_topx1 my_pd_bottomx4">A quiet place</h5>
                                 <p class="txt_cap">subtitle</p>
                             </li>
-                            <li class="txt_c txt_cap">
+                            <!-- --------------------------- -->
+                            <li class="my_relative txt_c txt_cap">
                                 <a href="">
-                                    <img class="my_width100" src="img/split.jpeg" alt="">
+                                    <img class="my_width100 my_filter" src="img/split.jpeg" alt="">
+                                    <i id="abs" class="far fa-play-circle"></i>
                                 </a>
                                 <h5 class="my_pd_topx1 my_pd_bottomx4">split</h5>
                                 <p>subtitle</p>
                             </li>
-                            <li class="txt_c">
+                            <!-- ---------------------------- -->
+                            <li class="my_relative txt_c">
                                 <a href="">
-                                    <img class="my_width100" src="img/cure.jpeg" alt="">
+                                    <img class="my_width100 my_filter" src="img/cure.jpeg" alt="">
+                                    <i id="abs" class="far fa-play-circle"></i>
                                 </a>
                                 <h5 class="my_pd_topx1 my_pd_bottomx4">A cure for wellness</h5>
                                 <p class="txt_cap">subtitle</p>
                             </li>
-                            <li class="txt_c txt_cap">
+                            <!-- ----------------------- -->
+                            <li class="my_relative txt_c txt_cap">
                                 <a href="">
-                                    <img class="my_width100" src="img/sinister.jpeg" alt="">
+                                    <img class="my_width100 my_filter" src="img/sinister.jpeg" alt="">
+                                    <i id="abs" class="far fa-play-circle"></i>
                                 </a>
                                 <h5 class="my_pd_topx1 my_pd_bottomx4">sinister</h5>
                                 <p>subtitle</p>
                             </li>
+                            <!-- ------------------- -->
                         </ul>
-
+                        <!-- /end menu-album-recently -->
                     </section>
+                    <!-- /end section recently -->
+
+                    <!-- start section createforyou -->
                     <section class="createforyou my_width100 my_pdx1">
                         <!-- posso farlo pure con il float questa riga dando il clearfiz alla mia section foryou -->
                         <h2>Creato per John Doe</h2>
                         <p class="my_pd_bottomx2">Più ascolti, più accurati saranno i suggerimenti.</p>
                         <ul class="menu-create d_flex_r list_none">
-                            <li class="txt_c txt_cap">
+                            <li class="my_relative txt_c txt_cap">
                                 <a href="">
-                                    <img class="my_width100" src="img/radar.jpeg" alt="">
+                                    <img class="my_width100 my_filter" src="img/radar.jpeg" alt="">
+                                    <i id="abs" class="far fa-play-circle"></i>
                                 </a>
                                 <h5 class="my_pd_topx1 my_pd_bottomx4">release radar</h5>
                             </li>
-                            <li class="txt_c txt_cap">
+                            <li class="my_relative txt_c txt_cap">
                                 <a href="">
-                                    <img class="my_width100" src="img/mixdaily.jpeg" alt="">
+                                    <img class="my_width100 my_filter" src="img/mixdaily.jpeg" alt="">
+                                    <i id="abs" class="far fa-play-circle"></i>
                                 </a>
                                 <h5 class="my_pd_topx1 my_pd_bottomx4">daily mix 1</h5>
                             </li>
                         </ul>
                     </section>
+                    <!-- /end section createforyou -->
+                    
+                    <!-- start section popular -->
                     <section class="popular my_width100 my_pdx1 my_pd_bottomx4">
                         <h2>Artisti più popolari</h2>
                         <p class="my_pd_bottomx2">Più ascolti, più accurati saranno i suggerimenti.</p>
                         <ul class="menu-popular d_flex_r list_none">
-                            <li class="txt_c txt_cap">
+                            <li class="my_relative txt_c txt_cap">
                                 <a href="">
-                                    <img class="my_width100" src="img/youg.jpeg" alt="">
+                                    <img class="my_width100 my_filter" src="img/youg.jpeg" alt="">
+                                    <i id="abs" class="far fa-play-circle"></i>
                                 </a>
                                 <h5 class="my_pd_topx1 my_pd_bottomx4">lana del rey</h5>
                             </li>
 
-                            <li class="txt_c txt_cap">
+                            <li class="my_relative txt_c txt_cap">
                                 <a href="">
-                                    <img class="my_width100" src="img/einaudi.jpeg" alt="">
+                                    <img class="my_width100 my_filter" src="img/einaudi.jpeg" alt="">
+                                    <i id="abs" class="far fa-play-circle"></i>
                                 </a>
                                 <h5 class="my_pd_topx1 my_pd_bottomx4">ludovico einaudi</h5>
                             </li>
-
                         </ul>
                     </section>
                 </div>
             </section>
+            <!-- /end section popular -->
         </main>
         <!-- /end main-general -->
         
@@ -216,12 +258,12 @@
             <!-- conteiner principale per il flex! -->
             <div id="foot-cont" class="d_flex_r my_width100 my_height100">
                 <!-- firs container left -->
-                <div class="box first d_flex_r">
+                <div class=" box first d_flex_r">
                     <ul class="mini-player d_flex_r list_none my_pd_leftx5">
                         <li>
                             <a href="#">
                                 <img class="vert_middle my_width100" src="img/sinister.jpeg" alt="">
-                        </a>
+                            </a>
                     </li>
                         <li class="txt_c txt_cap">
                             <h5>sinister</h5>
@@ -229,12 +271,12 @@
                         </li>
                         <li class="txt_r">
                             <a class="my_color_grey" href="#">
-                                <i class="far fa-heart"></i>
+                                <i class="hover_white far fa-heart"></i>
                             </a>
                         </li>
                         <li class="txt_l">
                             <a class="my_color_grey" href="#">
-                                <i class="far fa-folder"></i>                          
+                                <i class="hover_white far fa-folder"></i>                          
                             </a>
                         </li>
                     </ul>
@@ -242,37 +284,37 @@
                 <!-- /end first container left -->
                 <!-- music player -->
                 <div class="box second d_flex_c">
-                    <ul class="blue my_width100 music-player d_flex_r list_none">
+                    <ul class=" my_width100 music-player d_flex_r list_none">
                         <li>
                             <a href="#">
-                                <i class="fas fa-random"></i>
+                                <i class="click hover_white fas fa-random"></i>
                             </a>
                         </li>
 
                         <li>
                             <a href="#">
-                                <i class="fas fa-step-backward"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a id="special-player" href="#">
-                                <i class="far fa-play-circle"></i>
+                                <i class="click hover_white fas fa-step-backward"></i>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <i class="fas fa-step-forward"></i>
+                                <i id="special-player" class="hover_white far fa-play-circle"></i>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <i class="fas fa-redo"></i>
+                                <i class="click hover_white fas fa-step-forward"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="sfera click hover_white fas fa-redo"></i>
                             </a>
                         </li>
                     </ul>
 
                     <ul class="music-bar list_none d_flex_r">
-                        <li class=""><a id="second" class=" txt_dec_none" href="#">0:25</a></li>
+                        <li class=""><a class="txt_dec_none" id="second" class=" txt_dec_none" href="#">0:25</a></li>
                         <li class="volume-bar d_flex_r">
                             <div class="bar-audio d_flex_r">
                                 <div class="bar-audio-2">
@@ -281,29 +323,36 @@
                             </div>
                             
                         </li>
-                        <li class=""><a id="second" class=" txt_dec_none" href="#">4:35</a></li>
+                        <li class=""><a class="txt_dec_none" id="second" class=" txt_dec_none" href="#">4:35</a></li>
                     </ul>
 
                 </div>
                 <!-- /end music-player -->
 
                 <!-- audio right -->
-                <div class="box third green">
+                <div class=" box third">
                     <ul class="menu-audio d_flex_r list_none">
                         <li>
-                            <a href="#">
-                                <i class="fas fa-sliders-h"></i>
+                            <a class="" href="#">
+                                <i class="hover_white fas fa-sliders-h"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <i class="fas fa-desktop"></i>
+                            <a class="" href="#">
+                                <i class="hover_white fas fa-desktop"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <i class="fas fa-volume-up"></i>
+                            <a class="" href="#">
+                                <i class="hover_white fas fa-volume-up"></i>
                             </a>
+                        </li>
+                        <li class="volume-bar-bis d_flex_r">
+                            <div class="bar-audio-bis d_flex_r">
+                                <div class="bar-audio-2-bis">
+                                </div>
+                                <div class="circle-volume-bis"></div>
+                            </div>
                         </li>
                     </ul>
 

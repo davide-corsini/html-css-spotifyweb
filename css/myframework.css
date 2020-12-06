@@ -18,6 +18,10 @@
     background-color: green;;
 }
 
+.debug .violet{
+    background-color: violet;
+}
+
 
 /* GENERAL RULES */
 *{
@@ -60,7 +64,9 @@
     display: flex;
     flex-direction: column;
 }
-
+.my_relative{
+    position: relative;
+}
 .float_left{
     float: left;
 }
@@ -102,6 +108,13 @@ height: 100%;
 }
 .d_none{
     display: none;
+}
+
+.my_pd_0{
+    padding: 0;
+}
+.my_margin_0{
+    margin: 0;
 }
 /* -------------------- */
 /* padding tot % */
