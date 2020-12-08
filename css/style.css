@@ -70,6 +70,9 @@ nav{
 .menu-nav-header li a{
     color: rgba(167, 163, 163, 0.678);
 }
+.menu-nav-header li:hover{
+    border-left: 2px solid #32a75b;
+}
 /* ---------------------- */
 /* nav-main */
 .main-playlist{
@@ -143,10 +146,11 @@ span.profile-text{
 
 .call-to-action a.btn{
     padding: 8px 28px;
-    border: 1px solid white;
+    border: 1.8px solid white;
     border-radius: 25px;
     font-size: 12px;
     color: white;
+    background-color: black;
 }
 
 
@@ -323,7 +327,6 @@ ul.music-bar li {
     display: inline-block;
 }
 .bar-audio-2{
-    display: none;
     background-color: white;
     max-width: 80px;
     min-width: 60px;
@@ -337,7 +340,7 @@ ul.music-bar li {
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: hotpink;
+    background-color: #32a75b;
 }
 /* --------------------------- */
 /* /end second box footer */
@@ -374,7 +377,6 @@ ul.music-bar li {
 }
 
 .bar-audio-2-bis{
-    display: none;
     background-color: white;
     width: 29px;
     height: 2px;
@@ -387,7 +389,7 @@ ul.music-bar li {
     height: 6px;
     width: 6px;
     border-radius: 50%;
-    background-color: hotpink;
+    background-color: #32a75b;
 }
 /* -------------- */
 /* /end box third footer */
@@ -422,7 +424,7 @@ ul.music-bar li {
     display: block;
 }
 .btn:hover{
-    filter: drop-shadow(0px 8px 9px white);
+    filter: drop-shadow(0px 8px 9px #32a75b);
     font-weight: 700;
 
 }
@@ -430,6 +432,7 @@ ul.music-bar li {
 .my_filter:hover{    
     filter: grayscale(80%) opacity(1) contrast(100%) brightness(50%) drop-shadow(0px 4px 5px #32b15e);
 }
+
 #abs{
     display: none;
 }
@@ -441,7 +444,7 @@ ul.music-bar li {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -100%);
-    display: inline-block;
+    display: block;
 }
 .menu-create li:hover #abs,
 .menu-popular li:hover #abs{
@@ -452,48 +455,55 @@ ul.music-bar li {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -75%);
-    display: inline-block;
+    display: block;
 }
 
 #pluto{
     width: 100%;
     height: 50%;
 }
+
 .music-bar:hover .circle-volume,
 .music-bar:hover .bar-audio-2,
 .menu-audio:hover .circle-volume-bis,
 .menu-audio:hover .bar-audio-2-bis{
     display: block;
+    background-color: #32a75b;
 }
+
 .circle-volume:active{
     transition: all 0.5s;
     width: 15px;
     height: 15px;
 }
+
 .circle-volume-bis:active{
     transition: all 0.5s;
     width: 10px;
     height: 10px;
 }
+
 .sfera {
     animation: mycircle 0.6s linear infinite;
 }
 @keyframes mycircle {
     from {
-    transform: rotate(360deg);
+    transform: rotate(0deg);
     }
     to {
-    transform: rotate(0deg);
+    transform: rotate(360deg);
     }
 }
 .sfera:hover {
     animation: none;
 }
+
 .click:active{
     transition: 0.2s;
     font-size: 19px;
     color: #32a75b;
 }
+
 #special-player:active{
     transition: 0.2s;
     color: #32a75b;
