@@ -603,8 +603,7 @@ ul.music-bar li {
     }
     .icon-spotify img,
     img.download,
-    img.profile,
-    {
+    img.profile {
         width: 50%;
     }
     .pippo{
@@ -745,6 +744,16 @@ ul.music-bar li {
         padding-top: 2%;
         padding-bottom: 1%;
     } 
+}
+
+@media screen and (max-height: 350px) {
+    .call-to-action{
+        display: none;
+    }
+
+    #content-main{
+        padding-top: 0px;
+    }
 }
 /* /END MEDIA QUERY HEIGHT */
 /* --------------------------------- */

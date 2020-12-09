@@ -15,3 +15,4 @@
 [1206/171926.512:ERROR:process_info.cc(329)] VirtualQueryEx: Accesso negato. (0x5)
 [1206/171926.512:ERROR:process_info.cc(556)] ReadMemoryInfo failed
 [1206/171926.512:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Tentativo di accesso a un processo in fase di chiusura. (0xc000010a)
+[1208/210246.797:ERROR:directory_reader_win.cc(43)] FindFirstFile: Impossibile trovare il percorso specificato. (0x3)
